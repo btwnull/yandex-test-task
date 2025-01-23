@@ -881,6 +881,40 @@ header {
   .stages__list > li:nth-child(7)::after {
     content: "";
   }
+  .stages__mobile-hidden {
+    display: none;
+  }
+
+  .stages__mobile-show {
+    visibility: visible;
+  }
+
+  .stages__heading {
+    top: 0px;
+  }
+
+  .stages__subheading {
+    top: 0px;
+  }
+
+  .stages {
+    padding: 20px;
+    padding-top: 0px;
+  }
+
+  .stages__list {
+    padding: 0px;
+  }
+
+  .stages__list > li:nth-child(7)::after {
+    position: absolute;
+    top: -120px;
+    right: 15px;
+  }
+
+  .stages__content {
+    padding-top: 27px;
+  }
 }
 
 .stages__plane {
@@ -953,43 +987,6 @@ header {
 
 .stages__btn-disabled {
   background-color: #d6d6d6;
-}
-
-@media (max-width: 576px) {
-  .stages__mobile-hidden {
-    display: none;
-  }
-
-  .stages__mobile-show {
-    visibility: visible;
-  }
-
-  .stages__heading {
-    top: 0px;
-  }
-
-  .stages__subheading {
-    top: 0px;
-  }
-
-  .stages {
-    padding: 20px;
-    padding-top: 0px;
-  }
-
-  .stages__list {
-    padding: 0px;
-  }
-
-  .stages__list > li:nth-child(7)::after {
-    position: absolute;
-    top: -120px;
-    right: 15px;
-  }
-
-  .stages__content {
-    padding-top: 27px;
-  }
 }
 
 /* MEMBERS */
